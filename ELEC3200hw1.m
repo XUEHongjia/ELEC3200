@@ -28,8 +28,7 @@ sys4 = tf(num,den);
 [A4, B4, C4, D4] = ssdata(sys4);
 
 %Q5
-[A5, B5, C5, D5] = ssdata(sys3);
-sys5 = ss(A5,B5,C5,D5)
+sys5 = ss( sys2 )
 
 %testing 
 [y1,t1] = impulse(sys);
